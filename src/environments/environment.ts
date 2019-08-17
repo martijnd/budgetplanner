@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyAtUJKkpafOd-qtXtmrI40tjqdmh_ONhJ0',
+    authDomain: 'budgetplanner-c3e05.firebaseapp.com',
+    databaseURL: 'https://budgetplanner-c3e05.firebaseio.com',
+    projectId: 'budgetplanner-c3e05',
+    storageBucket: '',
+    messagingSenderId: '921433573930',
+    appId: '1:921433573930:web:85d77a09f673a65d'
+  }
 };
 
 /*

@@ -9,11 +9,23 @@ By setting an initial monthly budget, the user can inspect how much money they c
 
 - By assigning categories to the transactions, the users will gain extra insight as they can see per category how strong the money flow is and can quickly view which category they have to manage better to prevent additional spendings.
 
+# User
+- id: number
+- name: string
+- email: string
+- budget: number
+- transactions: Transaction[]
+
 # Transaction
 - title: string
+- user_id: number
 - amount: number
 - type: string
+- categories: string[]
 - repetition: string
+
+# Category
+- title: string
 
 ## Repetitions
 - Incidental / once
