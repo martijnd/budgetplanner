@@ -1,27 +1,24 @@
-# Budgetplanner
+Users can put in their expected transactions, like rent, payment for electricy, their daily coffee at Starbucks, etc.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
+By setting an initial monthly budget, the user can inspect how much money they can spend each month, and how much they have left by the end of each month.
 
-## Development server
+**Extra**  
+- The user can create custom categories.  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Users can assign one or more categories to their transactions.  
 
-## Code scaffolding
+- By assigning categories to the transactions, the users will gain extra insight as they can see per category how strong the money flow is and can quickly view which category they have to manage better to prevent additional spendings.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Transaction
+- title: string
+- amount: number
+- type: string
+- repetition: string
 
-## Build
+## Repetitions
+- Incidental / once
+- Daily
+- Weekly
+- Monthly
+- Yearly
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
